@@ -1,10 +1,10 @@
 def completar(a):
     mes=a[0].split(" ")[0]
     year=a[0].split(" ")[2]
-    minimo=int(a[0].split(" ")[1].split(',')[0])
-    maximo=int(a[-1].split(" ")[1].split(',')[0])
+    minimo_dia=int(a[0].split(" ")[1].split(',')[0])
+    maximo_dia=int(a[-1].split(" ")[1].split(',')[0])
     salida=[]
-    for i in range(minimo,maximo+1):
+    for i in range(minimo_dia,maximo_dia+1):
          salida.append(mes+" "+str(i)+", "+year)
     print (salida)
 
