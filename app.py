@@ -45,4 +45,4 @@ def completar(a):
 
     print(fechas)
 
-completar(['Nov 2, 1969','Dec 9, 1969'])
+completar(['Oct 2, 1969', 'Oct 5, 1969', 'Oct 7, 1969', 'Oct 9, 1969'])
